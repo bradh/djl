@@ -81,9 +81,9 @@ def prepareNativeLib(String binaryRoot, String ver) {
     def files = [
             "cpu/libtorch-cxx11-abi-shared-with-deps-${ver}%2Bcpu.zip"        : "cpu/linux-x86_64",
             "cpu/libtorch-macos-arm64-${ver}.zip"                             : "cpu/osx-aarch64",
-            "cpu/libtorch-win-shared-with-deps-${ver}%2Bcpu.zip"              : "cpu/win-x86_64",
+//            "cpu/libtorch-win-shared-with-deps-${ver}%2Bcpu.zip"              : "cpu/win-x86_64",
             "${cuda}/libtorch-cxx11-abi-shared-with-deps-${ver}%2B${cuda}.zip": "${cuda}/linux-x86_64",
-            "${cuda}/libtorch-win-shared-with-deps-${ver}%2B${cuda}.zip"      : "${cuda}/win-x86_64",
+//            "${cuda}/libtorch-win-shared-with-deps-${ver}%2B${cuda}.zip"      : "${cuda}/win-x86_64",
             "cpu/libtorch-shared-with-deps-${ver}%2Bcpu.zip"                  : "cpu-precxx11/linux-x86_64",
             "${cuda}/libtorch-shared-with-deps-${ver}%2B${cuda}.zip"          : "${cuda}-precxx11/linux-x86_64"
     ]
